@@ -1,0 +1,388 @@
+/* Base Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;  
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    text-align: center;
+
+}
+
+h1 {
+
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+ul, p {
+    margin: 0;
+}
+
+p {
+    line-height: 1.5;
+    text-align: center
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+
+}
+
+img {
+    width: 100%;
+}
+
+.button {
+
+    background-color: blue;
+  text-decoration: none;
+  color: white;
+  padding: 0.5em;
+  border-radius: .5em;
+  width: 11em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Layout Styles */
+
+.navbar__list {
+    display: flex;
+    justify-content: flex-end;
+
+    &-items {
+    list-style: none;
+    margin: 1em 1em 1em 1em;
+  }
+}
+
+.hero__container {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+        &__header {
+            padding-bottom: 1em;
+        }
+
+        &__subheader {
+            padding-bottom: 2em;
+            width: 40%;
+        }
+
+}
+
+.lets-chat__form {
+    &-row {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &column {
+        display:flex;
+        justify-content: center;
+    }
+
+    &items {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.quotes__columns {
+
+}
+
+.course-header__columns {
+
+}
+
+.students__columns {
+
+}
+
+
+/* Blocks */
+
+
+.navbar__list-items__link {
+  
+        text-decoration: underline;
+
+        &-button {
+            position: relative;
+            bottom: .5em;
+        }
+
+      }
+
+.hero {
+
+    &__heading {
+        text-align: center;
+    }
+
+    &__subheading {
+        text-align: center;
+        max-width: 40em;
+        min-width: 10em;
+    }
+
+    &__video {
+        width: 100%;
+        min-width: 34em;
+        min-height: 20em;
+    }
+}
+
+.lets-chat {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &__heading {
+        text-align: center;
+        margin-bottom: .25em;
+    }
+
+    &__body {
+        text-align: center;
+        max-width: 30em;
+        margin-bottom: 2em;
+    }
+
+    &__form {
+
+        &__input, &__input-name, &__input-submit {
+            font-size: 1rem;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        &__input, &__input-name {
+            border: 2px solid rgb(172, 169, 169);
+            border-radius: .2em;
+            padding: .5em 0.5em 0.5em 0.5em;
+        }
+        &__input {
+            width: 22em;
+            margin-bottom: .3em;
+        }
+
+        &__input-name {
+            margin-left: .15em;
+            margin-bottom: .3em;
+            width: 10.75em;
+            position: relative;
+            right: .2em;
+        }
+        &__input-submit {
+            margin: 1.5em 0em 3em 0em;
+            
+        }
+    }
+  }
+
+
+.quotes {
+
+}
+
+.courses-header {
+
+}
+
+.courses-footer {
+
+}
+
+.meet-kenzie {
+
+}
+
+.staff {
+
+}
+
+.students {
+
+}
+
+
+.schedule-header {
+
+}
+
+.schedule-form {
+
+}
+
+.staff__columns {
+
+}
+
+.lets-chat__form__rows {
+
+}
+
+.schedule-form__checkbox-row {
+
+}
+
+.schedule-form__textarea-rows {
+
+}
+
+     /* Block elements here */
+
+
+
+
+.quotes__body {
+
+}
+
+.quotes__img {
+
+}
+
+.courses-header__img {
+
+}
+
+.courses-header__heading {
+
+}
+
+.courses-header__button {
+
+}
+
+.courses-footer__heading {
+
+}
+
+.courses-footer__button {
+
+}
+
+.meet-kenzie__heading {
+
+}
+
+.meet-kenzie__body {
+
+}
+
+.meet-kenzie__link {
+
+}
+
+.staff__img {
+
+}
+
+.staff__heading {
+
+}
+
+.students__video {
+
+}
+
+.students__heading {
+
+}
+
+.students__body {
+
+}
+
+.lets-chat__heading {
+
+}
+
+.lets-chat__body {
+
+}
+
+
+
+.lets-chat__form__items {
+
+}
+
+.lets-chat__form__names {
+
+}
+
+.lets-chat__form__submit-btn {
+
+}
+
+.schedule-header__heading {
+
+}
+
+.schedule-header__subheading {
+
+}
+
+.schedule-header__body {
+
+}
+
+.schedule-form__checkbock__input {
+
+}
+
+.schedule-form__checkbox__heading {
+
+}
+
+.schedule-form__checkbox__body {
+
+}
+
+.schedule-form__textarea__heading {
+
+}
+
+.schedule-form__textarea__body {
+
+}
+
+.schedule-form__textarea__input {
+
+}
+
+.schedule-form__next-btn {
+    
+}

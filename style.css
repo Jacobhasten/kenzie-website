@@ -1,0 +1,166 @@
+/* Base Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Nunito", sans-serif;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+ul, p {
+  margin: 0;
+}
+
+p {
+  line-height: 1.5;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.button {
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  width: 11em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Layout Styles */
+.navbar__list {
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar__list-items {
+  list-style: none;
+  margin: 1em 1em 1em 1em;
+}
+
+.hero__container {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.hero__container__header {
+  padding-bottom: 1em;
+}
+.hero__container__subheader {
+  padding-bottom: 2em;
+  width: 40%;
+}
+
+.lets-chat__form-row {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+.lets-chat__formcolumn {
+  display: flex;
+  justify-content: center;
+}
+.lets-chat__formitems {
+  display: flex;
+  align-items: center;
+}
+
+/* Blocks */
+.navbar__list-items__link {
+  text-decoration: underline;
+}
+.navbar__list-items__link-button {
+  position: relative;
+  bottom: 0.5em;
+}
+
+.hero__heading {
+  text-align: center;
+}
+.hero__subheading {
+  text-align: center;
+  max-width: 40em;
+  min-width: 10em;
+}
+.hero__video {
+  width: 100%;
+  min-width: 34em;
+  min-height: 20em;
+}
+
+.lets-chat {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.lets-chat__heading {
+  text-align: center;
+  margin-bottom: 0.25em;
+}
+.lets-chat__body {
+  text-align: center;
+  max-width: 30em;
+  margin-bottom: 2em;
+}
+.lets-chat__form__input, .lets-chat__form__input-name, .lets-chat__form__input-submit {
+  font-size: 1rem;
+  font-family: "Nunito", sans-serif;
+}
+.lets-chat__form__input, .lets-chat__form__input-name {
+  border: 2px solid #aca9a9;
+  border-radius: 0.2em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+.lets-chat__form__input {
+  width: 22em;
+  margin-bottom: 0.3em;
+}
+.lets-chat__form__input-name {
+  margin-left: 0.15em;
+  margin-bottom: 0.3em;
+  width: 10.75em;
+  position: relative;
+  right: 0.2em;
+}
+.lets-chat__form__input-submit {
+  margin: 1.5em 0em 3em 0em;
+}
+
+/* Block elements here */
+
+/*# sourceMappingURL=style.css.map */
