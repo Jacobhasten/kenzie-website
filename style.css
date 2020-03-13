@@ -77,10 +77,10 @@ img {
   align-items: center;
   flex-direction: column;
 }
-.hero__container__header {
-  padding-bottom: 1em;
+.hero__container__heading {
+  padding-bottom: 2em;
 }
-.hero__container__subheader {
+.hero__container__subheading {
   padding-bottom: 2em;
   width: 40%;
 }
