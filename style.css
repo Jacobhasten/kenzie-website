@@ -1,5 +1,6 @@
 /* Base Styles */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -13,7 +14,12 @@ body * {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   text-align: center;
 }
@@ -31,7 +37,8 @@ h3 {
   font-size: 1.5rem;
 }
 
-ul, p {
+ul,
+p {
   margin: 0;
 }
 
@@ -100,6 +107,51 @@ img {
   align-items: center;
 }
 
+.meet-kenzie__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-rows: 33vh;
+  grid-row-gap: 2em;
+}
+.meet-kenzie__container-header {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+.meet-kenzie__container-header__link {
+  margin-top: 1em;
+}
+.meet-kenzie__container-staff {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-column-gap: 2em;
+}
+.meet-kenzie__container-staff-columns {
+  justify-self: center;
+  align-self: center;
+}
+.meet-kenzie__container-students {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.meet-kenzie__container-students-columns {
+  justify-self: center;
+  align-self: center;
+}
+
 /* Blocks */
 .navbar__list-items__link {
   text-decoration: underline;
@@ -161,6 +213,68 @@ img {
   margin: 1.5em 0em 3em 0em;
 }
 
+.meet-kenzie__students__video {
+  width: 18em;
+  margin: auto 0;
+}
+.meet-kenzie__staff__heading, .meet-kenzie__students__heading {
+  font-weight: bolder;
+}
+
 /* Block elements here */
+.meet-kenzie__staff__img {
+  width: 8em;
+}
+
+@media (min-width: 800px) {
+  .meet-kenzie__container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+  .meet-kenzie__container-header {
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+  .meet-kenzie__container-staff {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .meet-kenzie__container-students {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .meet-kenzie__container-students-columns {
+    justify-self: center;
+    align-self: start;
+    max-width: 40em;
+  }
+
+  .meet-kenzie__header__heading {
+    margin: 1em 1em 0.25em 1em;
+  }
+  .meet-kenzie__header__body {
+    max-width: 46em;
+  }
+  .meet-kenzie__staff__img {
+    width: 10em;
+  }
+  .meet-kenzie__students__heading, .meet-kenzie__students__body {
+    padding: 0.25em;
+    text-align: left;
+    max-width: 21em;
+  }
+}
+@media (min-width: 900px) {
+  .meet-kenzie__staff__img {
+    width: 12em;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
