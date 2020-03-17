@@ -308,25 +308,34 @@ img {
 
 /* Block elements here */
 
-.quotes__body {
+.courses {
+  &__quotes {
+    &__icon {
+      width: 20px;
+      height: auto;
+    }
+  }
+
+}
+.courses__quotes__body {
 }
 
-.quotes__img {
+.courses__quotes__icon {
 }
 
-.courses-header__img {
+.courses__header__img {
 }
 
-.courses-header__heading {
+.courses__header__heading {
 }
 
-.courses-header__button {
+.courses__header__button {
 }
 
-.courses-footer__heading {
+.courses__footer__heading {
 }
 
-.courses-footer__button {
+.courses__footer__button {
 }
 
 .meet-kenzie__header__heading {

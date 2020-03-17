@@ -222,6 +222,11 @@ img {
 }
 
 /* Block elements here */
+.courses__quotes__icon {
+  width: 20px;
+  height: auto;
+}
+
 .meet-kenzie__staff__img {
   width: 8em;
 }
